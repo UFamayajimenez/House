@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/amayajimenez/CLionProjects/House/Furniture.h
+string
+-
+
+/Users/amayajimenez/CLionProjects/House/Room.cpp
+iostream
+-
+Room.h
+/Users/amayajimenez/CLionProjects/House/Room.h
+
+/Users/amayajimenez/CLionProjects/House/Room.h
+vector
+-
+Furniture.h
+/Users/amayajimenez/CLionProjects/House/Furniture.h
+
+/Users/amayajimenez/CLionProjects/House/main.cpp
+iostream
+-
+Furniture.h
+/Users/amayajimenez/CLionProjects/House/Furniture.h
+Room.h
+/Users/amayajimenez/CLionProjects/House/Room.h
+
